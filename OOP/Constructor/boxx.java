@@ -11,7 +11,7 @@ class boxx
   }
 
 
-//parameterized constructors
+//parameterized constructor
   boxx(double height , double width , double length )
   {
     this.height = height ;
