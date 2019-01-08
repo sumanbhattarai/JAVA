@@ -14,7 +14,6 @@
             iv) throws
             v) finally
 
-# Exception Types :
 
 # Uncaught Exceptions : 
      
@@ -51,7 +50,7 @@ The flow of execution stops immiediately after the throw statement ; any subsiqu
 
 - A throws clause lists the type of exceptions that a method might throw. This is necessary for all exceptions, except those of type Error or RuntimeException or any of their subclass. All other exceptions that a method can throw must be declared in the throws clause. If they are not, a compile time error will occured.
 
-    General Form:
+General Form:
                    type methodName ( parameter list) throws exceptionList
                    {
                        //body
