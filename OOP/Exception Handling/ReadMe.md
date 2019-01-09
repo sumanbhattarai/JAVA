@@ -74,13 +74,30 @@ The flow of execution stops immiediately after the throw statement ; any subsiqu
 - That must be included in a method's throw list if that method can generate one of these Exception and doesnot handle itself.
 
 - Eg: ClassNotFoundException
-      IllegalACcessException
+      IllegalAccessException
+      CloneNotSupportedException
+      InstantiationException
+      NoSuchFieldException
+      NoSUchMethodException
+      ReflectiveOperationException
 
 > Unchecked Exception
 
 - These exceptions need not be included in any method is throws list.
 - Compiler doesnot check to see if a method handles or throw these exception.
-- Eg : ArithmeticException, ArrayIndexOutOfRoundsException.
+
+- Eg : ArithmeticException 
+       ArrayIndexOutOfRoundsException
+       ArrayStoreException
+       ClassCastException
+       IllegalArgumentException
+       IllegalMonitorStateException
+       IllegalStateException
+       IndexOutOfBoundsException
+       NegativeArraySizeException
+       NullPointerException
+       SecurityException
+
 
 
 
