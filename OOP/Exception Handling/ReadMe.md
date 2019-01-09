@@ -99,7 +99,12 @@ The flow of execution stops immiediately after the throw statement ; any subsiqu
        SecurityException
 
 
+# Chained Exceptions
 
+- Allow to associate another exception with an example.
+
+
+               
 
 
 
