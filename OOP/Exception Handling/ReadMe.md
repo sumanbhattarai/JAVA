@@ -50,7 +50,7 @@ The flow of execution stops immiediately after the throw statement ; any subsiqu
 
 - A throws clause lists the type of exceptions that a method might throw. This is necessary for all exceptions, except those of type Error or RuntimeException or any of their subclass. All other exceptions that a method can throw must be declared in the throws clause. If they are not, a compile time error will occured.
 
-General Form:
+     General Form:
                    type methodName ( parameter list) throws exceptionList
                    {
                        //body
@@ -66,6 +66,21 @@ General Form:
 
 
 # Java Build in Exception
+
+- Must general of these exceptions are subclass of the standard tyoe Runtime Exception.
+
+> Checked exception
+
+- That must be included in a method's throw list if that method can generate one of these Exception and doesnot handle itself.
+
+- Eg: ClassNotFoundException
+      IllegalACcessException
+
+> Unchecked Exception
+
+- These exceptions need not be included in any method is throws list.
+- Compiler doesnot check to see if a method handles or throw these exception.
+- Eg : ArithmeticException, ArrayIndexOutOfRoundsException.
 
 
 
