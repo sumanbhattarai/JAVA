@@ -24,4 +24,27 @@
 
                           File f = new File("GCES") ;
                           f.mkdir(); 
+
+     
+     Constructors :
+
+        - File f = new File ( String name ) ;
+                // To represent resources in current working directory.
+
+        - File f = new File ( "directory-name" , "fileName") ;
+
+        - Fle f = new File ( File Sub directory , String name) ;
+
+      Methods :
+
+        - boolean exists() ;
+        - boolean createNewFile() ;
+        - boolean mkdir() ;
+        - boolean isFile() ;
+        - boolean isDirectory() ;
+        - String[] list();
+        - Long length();
+        - boolean delete();
+      
+
                                                   
