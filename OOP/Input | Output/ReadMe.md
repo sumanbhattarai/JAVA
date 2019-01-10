@@ -1,4 +1,4 @@
-Classes :
+# Classes :
 - File
 - File Writen
 - File Reader
@@ -20,7 +20,7 @@ Classes :
 
  > Note : JAVA IO is based on UNIX system. It can be used to represent directory also.
                      
-                     To create new directory :
+                  To create new directory :
 
                           File f = new File("GCES") ;
                           f.mkdir(); 
