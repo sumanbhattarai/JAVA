@@ -11,12 +11,14 @@ class CodeChallengeAdvanced
 {
     public static void main(String[] args) 
     {
-        if(args.length == 2)
+        if(args.length == 2) //to check no. of arguments.
         {
             if(args[0].contains("/") || args[0].contains("\\") || args[0].equals("Desktop") || args[0].equals("desktop") )
+            //to check whether first argument is location or not.
+            //if it is location then this section begins.
             {
-                String location ="/Users/macbookpro/" + args[0]  ;
-                if(args[1].equals("-c"))
+                String location ="/Users/macbookpro/" + args[0]  ; //it will concatenate the location with first argument and hence a exact location is got.
+                if(args[1].equals("-c")) // -c is to create.
                 {
                      try
                          {
@@ -36,7 +38,7 @@ class CodeChallengeAdvanced
                          }
                 }
          
-                else if (args[1].equals("-s"))
+                else if (args[1].equals("-s")) //-s is to show all files and directories.
                 {
                  File file = new File(location) ;
                  File[] files = file.listFiles();
@@ -45,7 +47,7 @@ class CodeChallengeAdvanced
                  }
                 }
          
-                else if(args[1].equals("-co"))
+                else if(args[1].equals("-co")) //-co is to count all files and directories.
                 {
                  int count = 0;
                  File file = new File(location) ;
@@ -67,7 +69,7 @@ class CodeChallengeAdvanced
 
             else
             {
-                String location ="./" + args[0]  ;
+                String location ="./" + args[0]  ; // ./ returns the current location.
 
                 if(args[1].equals("-c"))
                 {
