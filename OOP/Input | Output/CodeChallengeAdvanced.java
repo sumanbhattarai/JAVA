@@ -153,9 +153,18 @@ class CodeChallengeAdvanced
                     System.out.println("You cannot create file without giving its name.");
                  
                 }
+                else 
+                    {
+                        System.out.println("Invalid Argument");
+                    }
 
                 
 
+            }
+
+            else 
+            {
+                System.out.println("If you want only one argument to pass then your argument must be -s or -c or -co. Thankyou.");
             }
         }
 
