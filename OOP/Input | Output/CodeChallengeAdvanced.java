@@ -16,7 +16,7 @@ class CodeChallengeAdvanced
             if(args[0].contains("/") || args[0].contains("\\") || args[0].equals("Desktop") || args[0].equals("desktop") )
             //to check whether first argument is location or not.
             //if it is location then this section begins.
-            {
+            
                 String location ="/Users/macbookpro/" + args[0]  ; //it will concatenate the location with first argument and hence a exact location is got.
                 if(args[1].equals("-c")) // -c is to create.
                 {
