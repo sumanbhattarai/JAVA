@@ -13,4 +13,4 @@
     - int read ()
     - int read ( char[] ch )
     - void close ()
-    - String readLne() // returns NULL if no line available.
+    - String readLine() // returns NULL if no line available.
