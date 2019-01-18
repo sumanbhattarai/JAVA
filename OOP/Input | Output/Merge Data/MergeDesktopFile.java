@@ -10,7 +10,8 @@ class MergeDesktopFile
         File file = new File("/Users/macbookpro/Desktop") ;
         File[] files = file.listFiles();
         for(File f: files){
-            if (f.getName().endsWith((".txt"))) {
+            
+            if (f.getName().endsWith(".txt")) {
                 
                 String location = "/Users/macbookpro/Desktop/" + f.getName() ;
                 BufferedReader br = new BufferedReader(new FileReader(location)) ;
@@ -22,6 +23,8 @@ class MergeDesktopFile
 
                 }
               }
+
+
         }
 
         pw.flush();
