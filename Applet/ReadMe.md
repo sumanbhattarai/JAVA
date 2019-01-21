@@ -1,4 +1,33 @@
 
+# Applet programming
+
+- An Applet in a java Program that runs in a web browser.
+
+- An applet in a java class that extends the java.applet.Applet class
+
+- No main() method.
+
+- Applet are designed to be embedded within an HTML page.
+
+- JVM is required to view an applet.
+
+- Applet have strict security rules that are enforced by the web browser.
+
+# Two types of Applet
+
+- Based on Applet class:
+        
+– These Applets use the Abstract Window ToolKit(AWT) to provide the
+graphical user interface.
+– This style of Applet has been available since java was first created.
+
+- Based on JApplet class : 
+
+– Are based on the Swing class JApplet, which inherits Applet.
+– Swing applets use the Swing classes to provide the G.U.I.
+
+
+
 # Applet Initialization and Termination
 
 - When an applet begins , the following methods are called in this sequence .
