@@ -12,11 +12,11 @@
 
  > init()
 
- - The init method is the first method to be called . This is where you should initialize variable. This methhod is called only once during the runtime of you applet.
+ - The init() is the first method to be called . This is where you should initialize variable. This methhod is called only once during the runtime of you applet.
 
  > start()
  
- - Start method is called after init(). It is also called to re-start an applet after it has been stopped. Start method is called each time an applets HTML document is displayed on screen . So , if a user leaves a webpage and comes back, the applet resumes and execution start at start() .
+ - The start() is called after init(). It is also called to re-start an applet after it has been stopped. The start() is called each time an applets HTML document is displayed on screen . So , if a user leaves a webpage and comes back, the applet resumes and execution start at start() .
 
  > paint()
 
@@ -24,4 +24,8 @@
 
  > stop()
 
- - Stop method is called when a web browser leaves the HTML document containing the applet when it goes to another page. You should use stop() to suspend threads don't need to run when the applet is not visible.
+ - The stop() is called when a web browser leaves the HTML document containing the applet when it goes to another page. You should use stop() to suspend threads don't need to run when the applet is not visible.
+
+ > destroy()
+
+ - The destroy() is called when the environment determines your applet needs to be removed completely from memory. At this point you should free up any resources the applet may be using. The destroy() is called only after the stop().
