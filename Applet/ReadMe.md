@@ -58,3 +58,59 @@ graphical user interface.
  > destroy()
 
  - The destroy() is called when the environment determines your applet needs to be removed completely from memory. At this point you should free up any resources the applet may be using. The destroy() is called only after the stop().
+
+
+ # The HTML APPLET TAG
+         
+         Syntax :
+                    < APPLET 
+                    [ CODEBASE = codebaseURL ]
+                     CODE = appletFile
+                    [ ALT = alternateText ]
+                    [ NAME = appletInstanceName ]
+                      WIDTH = pixels 
+                      HEIGHT = pixels 
+                    [ ALIGN = alignment ]
+                    [ VSPACE = pixels ]
+                    [ HSPACE = pixels ]
+                    >
+
+                    [ <PARAM NAME = attritubeName VALUE = AttritubeValue >]
+                    [ HTML Displayed in JAVA ]
+                    </APPLET>
+
+>                    Note: [] is optional
+
+# CODEBASE attribute
+
+It is an optional attribute that specifies the base URL of the applet code , which is the directory that will be searched for the applets executable class file.  The HTML documents URL directory is used as the code based if this attribute is not specified . Code is a required attribute that gives the name of the file continuing your applets compiled .class file . This file is related to the code based URL of the applet.
+
+
+# ALT tag
+
+The Alt tag is an optional attribute used to specify a short text message that should be displayed if the browser recognizes the applet tag but can't curretly runs JAVA applets.
+
+
+# NAME attribute 
+
+NAME is an optional attribute used to specify a name for the applet instance . NAME attribute is used in order to communicate between applets on the same page.
+
+
+# WIDTH and HEIGHT
+
+Width and height are the required attribute that gives the size of the applet display area.
+
+
+# Align
+
+Align is an optional attribute that specifies the alignment of the applet. The possible values are left , right , top , bottom , middle , base-line , text-top , abs-middle , abs-bottom.
+
+
+# VSPACE and HSPACE
+
+This attributes are optional. VSPACE specifies the space in pixels above and below the applet. HSPACE speciffies the space in pixels on each side of the applet.
+
+
+# PARAM tag
+
+Param tag allows you to specify applet specific arguments. Applets access their attribute with the getParameter() .
