@@ -23,3 +23,25 @@ The Window is the container that have no borders and menu bar. The Window class 
 # Frame :
 
 Frame has a title bar , menu bar , borders and resizing corners. The precise look of a frame will differ from environment. Frame is a container that contain several different components like button , title bar , text fiel , level etc. In Java , most of the AWT applications are created using frame window.
+
+
+# AWT Controls :
+        - Labels 
+        - Button
+        - CheckBox
+        - Choice Lists
+        - Lists
+        - Scroll Bars
+
+# Adding and Removing Controls :
+- To include a control in a window, you must add it to the window .
+
+- To do this , you must first create an instance of the desired control and then add it to a window by calling add() , which is defined by Container class.
+Syntax : 
+                    Component add ( Component ComponentRef ) ;
+
+- Once a component has been added it will be automatically visible whenever its parent window is displayed.
+
+- To Remove :
+void remove( Component ComponentRef ) ;
+void removeAll() ;
