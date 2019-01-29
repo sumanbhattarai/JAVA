@@ -26,7 +26,32 @@ Frame has a title bar , menu bar , borders and resizing corners. The precise loo
 
 
 # AWT Controls :
-        - Labels 
+
+> Labels
+
+- Labels are passive controls that do not support any international with the user i.e. no event handling .
+
+- A label is an object of type Label and it contains a String , which it displays.
+
+- Label defines the following constructors :
+
+i) Label() throws Headless Exception
+ii) Label ( String str ) throws HeadlessException . // the String is left justified.
+iii) Label ( String str , int how ) throws HeadlessException . // Label.LEFT , Level.RIGHT , Label.CENTER
+
+- Methods :
+
+i) void setText( String str )
+ii) String getText()
+iii) void setAlignment ( int how ) ;
+iv) int getAlignment() ;
+                                            
+                    
+
+
+
+
+
         - Button
         - CheckBox
         - Choice Lists
