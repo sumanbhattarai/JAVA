@@ -6,12 +6,15 @@ public class LabelDemo extends Applet {
     
     public void init()
     {
-        Label l1 = new Label ( "Name") ;
-        Label l2 = new Label ( "Address") ;
-        Label l3= new Label ( "Roll No.") ;
-        add(l1) ;
-        add(l2);
-        add(l3);
+        Label name = new Label ( "Name : " , Label.CENTER) ;
+        Label address = new Label ( "Address : " , Label.CENTER) ;
+        Label roll = new Label ( "Roll No. : "  , Label.CENTER) ;
+        add(name) ;
+        add(address);
+        add(roll);
+        System.out.println(Label.CENTER);
+       
+
 
         
 
