@@ -7,11 +7,11 @@
 
 - Commonly used Listener Interfaces implemented by Adapter Care :
 
-Adapter Class                       Listener Interface
----------------------------------------------------------------
-ComponentAdapter                   ComponentListener
-ContainerAdapter                   ContainerListener
-FocusAdapter                        FocusListener
-KeyAdapter                          KeyListener
-MouseMotionAdapter                  MouseMotionListener , MouseListener & MouseWheelListener
-WindowAdapter                       WindowListener , WindowFoundListener & WindowStateListener
+|Adapter Class|Listener Interface|
+|---------------|-------------------|
+|ComponentAdapter |                 ComponentListener|
+|ContainerAdapter  |                 ContainerListener|
+|FocusAdapter   |                     FocusListener|
+|KeyAdapter   |                       KeyListener|
+|MouseMotionAdapter|                  MouseMotionListener , MouseListener & MouseWheelListener|
+|WindowAdapter  |                     WindowListener , WindowFoundListener & WindowStateListener|
