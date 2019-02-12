@@ -75,3 +75,39 @@ i) public Color getColor()
 
 ii) public void setColor( Color c )
             Sets Current color for drawing with the graphics context.
+
+
+
+
+# Line 
+
+> Methods 
+- ``` public void drawLine( int x' , int y' , int zx , int yz ) ; ```
+
+
+# Rectangle
+
+- ``` public void drawRect( int x , int y  , int width ,  int height ) ```
+
+- ``` public void fillRect(int x , int y , int width , int height) ```
+
+- ``` public void drawRoundRect(int x , int y , int width , int height , int arcWidth , int arcHeight) ; ```
+
+- ``` public void fillRoundRect(int x , int y , int width , int height , int arcWidth , int arcHeight) ; ```
+
+- ``` public void drawOral(int x , int y , int width , int height t) ; ```
+
+- ``` public void fillOral(int x , int y , int width , int height t) ; ```
+
+
+# ARC
+
+> Methods
+
+- ``` public void drawArc( int x , int y , int width , int height , int startAngle , int arcAngle )```
+
+- ``` public void fillArc( int x , int y , int width , int height , int startAngle , int arcAngle ) ``` 
+
+
+
+
