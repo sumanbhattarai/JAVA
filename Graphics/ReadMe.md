@@ -13,6 +13,26 @@
 // Here g receives a reference to an object of the Graphics Class .
 
 i) the paint() method of the component class takes a Graphics object as an argument .
+
 ii) This object is passed to the paint method by the system when a paint operation required for a Component.
+
 iii) The paint method defined in a class Component does nothing by default, It must be overridden by the programmes.
+
 iv) When an applet executes , the paint method is automatically called. Similarly when any Component is displayed , that Component's paint method is called automatically . 
+
+
+- public void repaint()
+
+i) If the programmed needs to call paint , a call is made to the Component class repaint() method .
+
+ii) The repaint method request a call to the Component's update method .
+
+
+- Public void update( Graphics g )
+
+i) In AWT GUI Components , the update() clears the background of GUI components .
+
+
+- public void paintComponent ( Graphics g )
+
+i) Swing Components the inherit from the class JComponent contain method paintComponent() that helps them to draw properly in the context of a Swing GUI .
