@@ -22,7 +22,7 @@ public class Sum extends Applet implements ActionListener
         add(num2);
         add(Output);
         add(calculateSum);
-       Output.setEditable(false);
+        Output.setEditable(false);
 
 	}
 
