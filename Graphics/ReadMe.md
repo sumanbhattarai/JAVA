@@ -45,15 +45,33 @@ i) Swing Components the inherit from the class JComponent contain method paintCo
 
 | Color Constant | RGB values |
 |----------------|------------|
-| public static final Color RED | 255 , 0 , 0 |
-| public static final Color GREEN | 0 , 255 , 9|
-| public static final Color BLUE | 0 , 0 , 255|
-| public static final Color ORANGE | 255 , 200 , 0|
-| public static final Color PINK | 255 , 175 , 175 |
-| public static final Color CYAN | 0 , 255 , 255|
-| public static final Color MAGENTA | 255 , 0 , 255|
-| public static final Color YELLOW | 255 , 255 , 0|
-| public static final Color BLACK | 0 , 0 , 0 |
-| public static final Color WHITE | 255 , 255 , 255 |
+| ```public static final Color RED``` | 255 , 0 , 0 |
+| ```public static final Color GREEN``` | 0 , 255 , 9|
+| ```public static final Color BLUE``` | 0 , 0 , 255|
+| ```public static final Color ORANGE``` | 255 , 200 , 0|
+| ```public static final Color PINK``` | 255 , 175 , 175 |
+| ```public static final Color CYAN``` | 0 , 255 , 255|
+| ```public static final Color MAGENTA``` | 255 , 0 , 255|
+| ```public static final Color YELLOW``` | 255 , 255 , 0|
+| ```public static final Color BLACK``` | 0 , 0 , 0 |
+| ```public static final Color WHITE``` | 255 , 255 , 255 |
+
+- Constructors 
+
+i) public Color ( int r , int g , int b )  // based on 0-255 .
+ii) public Color ( float r , float g , float b) // based on 0.0 - 1.0
+
+- Methods 
+
+i) public int getRed() ;
+ii) public int getGreen() ;
+iii) public int getBlue() ;
 
 
+- Graphics methods for manipulating Colors 
+
+i) public Color getColor() 
+            It returns object representing current file for the graphicsContext .
+
+ii) public void setColor( Color c )
+            Sets Current color for drawing with the graphics context.
