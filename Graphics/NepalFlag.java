@@ -68,9 +68,36 @@ public class NepalFlag extends Applet
         lowerTriangle.addPoint(532,720); //k
         lowerTriangle.addPoint(23,720); // Y
         g.fillPolygon(lowerTriangle);
-        
 
 
+        // Sun
+        g.setColor(new Color(255,255,255));
+        Polygon sun = new Polygon();
+        sun.addPoint(96, 448);
+        sun.addPoint(101, 489);
+        sun.addPoint(57, 486);
+        sun.addPoint(83, 522);
+        sun.addPoint(45, 539);
+        sun.addPoint(83, 559);
+        sun.addPoint(58, 595);
+        sun.addPoint(100, 590);
+        sun.addPoint(100, 632);
+        sun.addPoint(133, 609);
+        sun.addPoint(151, 650);
+        sun.addPoint(169, 610);
+        sun.addPoint(204, 633);
+        sun.addPoint(201, 590);
+        sun.addPoint(243, 596);
+        sun.addPoint(219, 559);
+        sun.addPoint(257, 542);
+        sun.addPoint(219, 523);
+        sun.addPoint(246, 487);
+        sun.addPoint(201, 491);
+        sun.addPoint(205, 448);
+        sun.addPoint(171, 474);
+        sun.addPoint(151, 433);
+        sun.addPoint(133, 474);
+        g.fillPolygon(sun);
 
     }
 }
