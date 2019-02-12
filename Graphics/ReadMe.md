@@ -110,4 +110,16 @@ ii) public void setColor( Color c )
 
 
 
+# Polygons and Polylines
 
+- Polygons are closed multisided shapes component of straight line segments.
+
+- Polygon are sequences of connected points .
+
+> Polygon Constructors
+- ``` public Polygon()```
+- ```public Polygon ( int[]xvalue , int[] yvalues , int numberOfPoints)```
+
+> Methods
+
+- ``` public void addPoint ( int x  , int y )```
