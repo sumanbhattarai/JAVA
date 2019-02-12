@@ -51,5 +51,26 @@ public class NepalFlag extends Applet
         border2.addPoint(226, 382); // n
         g.fillPolygon(border2);
 
+        // Changing color to red.
+        g.setColor(new Color(204, 0, 43)) ;
+
+        // Upper Red part of FLag
+        Polygon upperTriangle = new Polygon();
+        upperTriangle.addPoint(23, 40); //e
+        upperTriangle.addPoint(23,360); //X
+        upperTriangle.addPoint(536, 360); //l
+        g.fillPolygon(upperTriangle);
+
+        // Lower Red Part of Flag
+        Polygon lowerTriangle = new Polygon();
+        lowerTriangle.addPoint(23,360); //X
+        lowerTriangle.addPoint(174, 360); //m
+        lowerTriangle.addPoint(532,720); //k
+        lowerTriangle.addPoint(23,720); // Y
+        g.fillPolygon(lowerTriangle);
+        
+
+
+
     }
 }
