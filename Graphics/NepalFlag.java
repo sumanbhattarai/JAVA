@@ -23,13 +23,6 @@ public class NepalFlag extends Applet
         mainLine.addPoint(23, 40); //e
         g.fillPolygon(mainLine);
 
-        Polygon sideLine = new Polygon() ;
-        sideLine.addPoint(1, 1); //a 
-        sideLine.addPoint(1, 26); //f
-        sideLine.addPoint(570, 382); //g
-        sideLine.addPoint(610, 382); //h
-        g.fillPolygon(sideLine);
-
         Polygon downLine = new Polygon() ;
         downLine.addPoint(1, 720); //i
         downLine.addPoint(1 , 740); //c 
@@ -98,6 +91,52 @@ public class NepalFlag extends Applet
         sun.addPoint(151, 433);
         sun.addPoint(133, 474);
         g.fillPolygon(sun);
+
+
+        // Moon
+
+        //Arc
+        g.fillOval(60, 160, 180, 180);
+        g.setColor(new Color(204, 0, 43));
+        g.fillOval(60, 130, 180, 180);
+        g.setColor(new Color(255,255,255));
+        Polygon halfMoon = new Polygon();
+        halfMoon.addPoint(96, 293);
+        halfMoon.addPoint(105, 288);
+        halfMoon.addPoint(90, 274);
+        halfMoon.addPoint(105, 269);
+        halfMoon.addPoint(96, 249);
+        halfMoon.addPoint(117, 253);
+        halfMoon.addPoint(115, 233);
+        halfMoon.addPoint(133, 243);
+        halfMoon.addPoint(138, 222);
+        halfMoon.addPoint(150, 237);
+        halfMoon.addPoint(164, 224);
+        halfMoon.addPoint(168, 242);
+        halfMoon.addPoint(188, 233);
+        halfMoon.addPoint(184, 253);
+        halfMoon.addPoint(205, 251);
+        halfMoon.addPoint(197, 268);
+        halfMoon.addPoint(212, 275);
+        halfMoon.addPoint(200, 285);
+        halfMoon.addPoint(209, 294);
+        halfMoon.addPoint(203, 315);
+        halfMoon.addPoint(143, 329);
+        halfMoon.addPoint(100, 311);
+        g.fillPolygon(halfMoon);
+
+
+        // SideLine
+        // Again color to blue.
+        g.setColor(new Color(0, 37, 132)) ;
+        Polygon sideLine = new Polygon() ;
+        sideLine.addPoint(1, 1); //a 
+        sideLine.addPoint(1, 26); //f
+        sideLine.addPoint(570, 382); //g
+        sideLine.addPoint(610, 382); //h
+        g.fillPolygon(sideLine);
+
+
 
     }
 }
