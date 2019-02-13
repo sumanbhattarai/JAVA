@@ -50,3 +50,7 @@
         {
             System.out.Println(rs.getInt(1));
         }
+
+6. Close Connection
+
+    ``` con.close(); ```
