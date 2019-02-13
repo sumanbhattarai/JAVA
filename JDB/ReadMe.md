@@ -24,3 +24,29 @@
 
 
 > Similarities : Both of them support any databse .
+
+
+# Steps to develop JDBC Application
+
+1. Load and Register Driver Class :
+
+    ``` Class.forName( " oracle.jdbc.OracleDriver " ) ; ```
+
+2. Establish Connection between java application and database .
+
+    ``` Connection con = DriverManager.getConnection( url , DbUsername , DbPassword )  ;```
+
+3.  Creation of statement Object 
+
+    ``` Statement st = con.createStatement(); ```
+
+4. Send and Execute SQL Query
+
+    ``` Result rs = st.executeQuery("Select * from employees");```
+
+5. Process Result from ResultSet
+
+        while(rs.next())
+        {
+            System.out.Println(rs.getInt(1));
+        }
