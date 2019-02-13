@@ -21,4 +21,6 @@
 | Developed by Microsoft | Developed by Sun Micro System |
 | Support any language | Only for JAVA language|
 | Only for Windows Machine | Support any platform |
-| Support any database | Support any database |
+
+
+> Similarities : Both of them support any databse .
