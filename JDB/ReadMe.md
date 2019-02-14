@@ -132,3 +132,19 @@ Example :
 - for both select and non-select operations
 - if you don't know SQL query run-time , we can use execute()
 - return type is  ```boolean``` i.e ```true``` for select query and ```false``` for non-select query. 
+
+Example :
+
+            boolean b = st.execute( dynamically provided sql Query ) ;
+            if(b==true)
+            {
+                ResultSet rs = st.getResultSet() ;
+                while ( rs.next())
+                {
+                    .....
+                }
+            }
+            else
+            {
+                int rowCount = st.getUpdateCount() ;
+            }
