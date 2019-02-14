@@ -102,4 +102,18 @@
  > Translation
  - Commit , rollback , savepoint
 
+# Methods to execute  SQL query 
+
+> executeQuery()
+- to execute select queries 
+
+``` public ResultSet executeQuery ( String sqlQuery ) throw SQL Eception ```
+
+Example : 
+
+            ResultSet rs = st.executeQuery( " Select * from employees " ) ;
+            while ( rs.next())
+            {
+                S.o.p(rs.getInt(1)) ;
+            }
 
