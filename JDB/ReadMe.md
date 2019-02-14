@@ -182,3 +182,14 @@ Example :
             }  
         }
 
+# Difference between Statement and PreparedStatement
+
+|Statement|Prepared Statement|
+|---------|------------------|
+| At the time of creating Statement object , we are not required to provide any query .| At the time of creating Prepared Statement object , we have to provide SQL query compulsory which can be send to the database and will be compiled. |
+| ```Statement st = con.createStatement()```|```PreparedStatement post = con.prepareStatement(query)```|
+| Hence , statement object is not associated with any query and we can use multiple queries. |Hence , preparedStatemnt always associated with only one query .|
+|Whenever, we are using execute method, everytime query will be compiled.| Whenever , we are using execute method, query won't be compiled every time.|
+|Statement object can work only for static queries.| Work only for static and dymamic queries.|
+| Relatively performance is low .| Relatively performance is high. |
+|Inserting data value and large objects is difficult.| Inserting data value and large object is easy.|
