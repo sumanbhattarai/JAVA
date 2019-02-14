@@ -57,6 +57,16 @@
 
 
 
+# JDBC Drivers
+
+- While Communicating with database , we have to convert Java calls into database specific calls and database specific calls into Java calls. For this Driver software is required.
+
+> As per our Analogy , driver is a translator.
+
+
+
+
+
 # Types of Drivers
 
 
