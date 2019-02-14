@@ -87,7 +87,7 @@
 > DDL ( Data Defination Language ) 
  - Create table , alter , drop
 
- > DQL ( date Query Language )
+ > DQL ( Data Query Language )
  - SELECT
 
  > DCL ( Date Control Language )
