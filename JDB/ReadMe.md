@@ -125,3 +125,10 @@ Example :
 Example :
 
             int affectedRow = st.executeUpdate("INSERT INTO employees('name' , 'address') VALUES ('suman' , 'pokhara')) ;
+
+
+
+> execute()
+- for both select and non-select operations
+- if you don't know SQL query run-time , we can use execute()
+- return type is  ```boolean``` i.e ```true``` for select query and ```false``` for non-select query. 
