@@ -117,3 +117,11 @@ Example :
                 S.o.p(rs.getInt(1)) ;
             }
 
+> executeUpdate()
+- Applicable for non-select operation ( DML )
+
+``` public int executeUpdate(String SqlQuery) throws SQLException ```
+
+Example :
+
+            int affectedRow = st.executeUpdate("INSERT INTO employees('name' , 'address') VALUES ('suman' , 'pokhara')) ;
