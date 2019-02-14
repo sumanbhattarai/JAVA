@@ -148,3 +148,37 @@ Example :
             {
                 int rowCount = st.getUpdateCount() ;
             }
+
+
+
+
+# SQL Injection
+
+- SQL injection is a code injection technique that might destroy your database .
+- SQL injection usually occurs when you ask a user for input , like their username and instead of username the user gives you an SQL'statement that you will unknowingly run on your database .
+- SQL injection can be prevented by using prepared statement.
+
+
+# Prepared Statement
+
+Example :
+
+        String sql = " INSERT INTO Student VALUES(?,?,?,?) ;
+        PreparedStatement st = con.prepareStatement();
+        Scanner sc =  new Scanner ( System.in) ;
+        While(true)
+        {
+            S.o.p("Name") ;
+            String name  = sc.next() ;
+            S.o.p("Address") ;
+            String address = sc.next();
+            st.setString(1,Name);
+            st.setString(2,address);
+            S.o.p("option");
+            String option = sc.next() ;
+            if(option.equalsIgnoreCase("No"))
+            {
+                break ;
+            }  
+        }
+
