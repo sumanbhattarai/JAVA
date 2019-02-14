@@ -82,5 +82,24 @@
 | Also Known as|JDBC-ODBC bridge driver|Native API-Partly Java Driver or Native Driver|All Javanet protocol Driver or Network protcol driver or middleware Driver| Pure Java Driver or Native protocol or this driver.|
 
 
+# Types of SQL Commands
+
+> DDL ( Data Defination Language ) 
+ - Create table , alter , drop
+
+ > DQL ( date Query Language )
+ - SELECT
+
+ > DCL ( Date Control Language )
+ - alter password , grant access
+
+ > DML ( Data Manipulation Language )
+ - INSERT , DELETE , UPDATE 
+
+ > Data Administrator
+ - Start audit
+
+ > Translation
+ - Commit , rollback , savepoint
 
 
