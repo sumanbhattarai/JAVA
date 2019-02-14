@@ -54,3 +54,23 @@
 6. Close Connection
 
     ``` con.close(); ```
+
+
+
+# Types of Drivers
+
+
+
+| Property | Type-1 | Type-2 | Type-3 | Type-4 |
+|----------|--------|--------|--------|--------|
+| Conversion | From JDBC calls to ODBC call | From JDBC calls to native library call | From JDBC calls to Middleware Server specific calls| From JDBC calls to database specific call |
+| Implemented in| Only JAVA | JAVA and Native Language|Only JAVA | Only JAVA|
+|Architecture|2 tier|2tier|3tier|2 tier|
+|Platform Independent | No | No | Yes | Yes |
+| DB independent  | Yes |No|Yes|No|
+| Thin or Thick |Thick|Thick|Thick|Thin|
+| Also Known as|JDBC-ODBC bridge driver|Native API-Partly Java Driver or Native Driver|All Javanet protocol Driver or Network protcol driver or middleware Driver| Pure Java Driver or Native protocol or this driver.|
+
+
+
+
