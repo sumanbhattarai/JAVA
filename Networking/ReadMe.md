@@ -77,3 +77,15 @@
 ```1. IP Address of Server ```
 
 ```2. Port Number ```
+
+
+# Socker Class 
+
+- This class is used to create a socket . 
+ 
+ > Methods
+
+ - ``` public InputStream getInputStream() ```
+ - ``` public OutputStream getOutputStream() ```
+ - ``` public Synchronized void close() ```
+
