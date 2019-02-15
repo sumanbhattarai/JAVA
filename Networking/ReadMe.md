@@ -49,3 +49,12 @@
 - The ports upto 1023 are reserved for well known services and hence are well-known ports .
 
         Eg : 80 fot HTTP , 21 for FTP , 22 for SSH
+
+
+> Socket :
+
+- A socket is an end point between two way communication. 
+
+- It defines a network connection as a Stream from which bytes can be read and similarly bytes can be sent.
+
+- Java Socket can be used to provide both connection-oriented ( TCP ) as well as connectionless ( UDP ) services .
