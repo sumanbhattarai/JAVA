@@ -8,10 +8,20 @@ public class MyServer
     {
         try
         {
+            // Server should initiate ServerSocket Object .
+
             ServerSocket ss = new ServerSocket(6666) ; // 6666 is port .
+
+            // Then , Server object envokes accept() of Server .
+
             Socket s = ss.accept() ; // Establish Connection
 
-            DataInputStream dis  = DataInputStream(s.getInputStream()) ;
+            // This gets the message sent by the Client .
+
+            DataInputStream dis  = new DataInputStream(s.getInputStream()) ;
+
+            // Typehinting the UTF message into String .
+            
             String str = (String)dis.readUTF() ;
             System.out.println("Message is : " + str ) ;
             ss.close();

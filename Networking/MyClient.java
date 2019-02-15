@@ -9,14 +9,14 @@ public class MyClient
         try {
             Socket s = new Socket("localhost" , 6666 ) ; // localhost : 127.0.0.1
             DataOutputStream dout  = new DataOutputStream(s.getOutputStream()) ;
-            dout.writeUTF("Hello Seven");
+            dout.writeUTF("Hello Server");
             dout.flush();
             dout.close();
             s.close();
         } catch ( Exception e)
         {
             System.out.println("Error is : " + e.getMessage() );
-            
+
         }
         
     }
