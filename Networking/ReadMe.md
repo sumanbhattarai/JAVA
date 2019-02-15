@@ -10,3 +10,5 @@
 4. The java.net package provides support for the two common network protocols .
 - TCP ( Transmission Control Protocol )
 - UDP ( User Datagram Protocol )
+
+> Differentiate between TCP and UDP .
