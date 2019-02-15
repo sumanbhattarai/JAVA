@@ -58,3 +58,15 @@
 - It defines a network connection as a Stream from which bytes can be read and similarly bytes can be sent.
 
 - Java Socket can be used to provide both connection-oriented ( TCP ) as well as connectionless ( UDP ) services .
+
+# Java Socket Programming
+
+- A scoket programming is used for communcation between the application running on different machine.
+
+- Java socket programming support : 
+
+|Connection-Oriented|Connection-less|
+|-------------------|---------------|
+|Classes Used: | Classes Used :|
+| ```1. Socket```| ```1. Datagram Socket```|
+|```2. ServerSocket```|```2. DatagramPacket```|
