@@ -79,7 +79,7 @@
 ```2. Port Number ```
 
 
-# Socker Class 
+# Socket Class 
 
 - This class is used to create a socket . 
  
@@ -89,3 +89,11 @@
  - ``` public OutputStream getOutputStream() ```
  - ``` public Synchronized void close() ```
 
+ # ServerSocket Class
+
+ - This class is used to create a server socket .
+ - This object is used to establish communication with the clients .
+  
+> Methods
+- ``` public Socket accept() ```
+- ``` public synchronized void close() ```
