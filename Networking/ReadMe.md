@@ -1,5 +1,5 @@
 
-# Network Programming
+# Network 
 
 1. A network is a collection of devices that share a common communication protocol and connected with some communication medium.
 
@@ -17,6 +17,35 @@
 |-----|-------|
 |Reliable | Unreliable |
 |Connection-oriented |	Connectionless|
-|Segment retransmission and flow control through windowing| 	No windowing or retransmission|
+|Segment re-transmission and flow control through windowing| 	No windowing or re-transmission|
 |Segment sequencing |	No sequencing|
 |Acknowledge sequencing |	No acknowledgment|
+
+
+# Network Programming
+
+- The tern network programming refers to writing programs the execute accross multiple devices , in which the devices are all connected to each other using a network. 
+
+``` Some Terminologies ```
+
+> Address : 
+
+- It is a logical address that can be change . IP address are a 32-bit number ( IPV4 format ) , often represented s a quad of four 8-bit number separated by periods. 
+            
+                    Eg : 192.168.0.1
+
+>  Protocol :
+
+- It is set of rules basically that is followed for communication.
+
+        Eg : TCP , UDP , FTP , POP . SMPT , HTTP . HTTPs
+
+> Port Number :
+
+- The port number is used to uniquely identify different applications . It acts as a communcation end point between applications .
+
+- The Valid port number range from 1 - 65535 .
+
+- The ports upto 1023 are reserved for well known services and hence are well-known ports .
+
+        Eg : 80 fot HTTP , 21 for FTP , 22 for SSH
