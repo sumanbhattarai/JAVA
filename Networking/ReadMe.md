@@ -70,3 +70,10 @@
 |Classes Used: | Classes Used :|
 | ```1. Socket```| ```1. Datagram Socket```|
 |```2. ServerSocket```|```2. DatagramPacket```|
+
+
+- Client in socket programming must know :
+
+```1. IP Address of Server ```
+
+```2. Port Number ```
