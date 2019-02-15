@@ -1,14 +1,14 @@
 
 import java.net.*;
 
-class InetAddress {
+class InetAddressDemo {
 
     public static void main(String[] args) throws UnknownHostException {
 
         InetAddress address = InetAddress.getLocalHost();
         System.out.println("Address : " + address);
 
-        address = InetAddress.getByName("www.thearjun.tech");
+        address = InetAddress.getByName("www.sbofficial.me");
         System.out.println("Address : " + address);
 
         /*
@@ -20,7 +20,7 @@ class InetAddress {
          * the name to at least one address.
          */
 
-        InetAddress[] addresses = InetAddress.getAllByName("www.thearjun.tech");
+        InetAddress[] addresses = InetAddress.getAllByName("www.sbofficial.me");
         for (int i = 0; i < addresses.length; i++) {
             System.out.println("Address " + (i + 1) + " : " + addresses[i]);
         }
