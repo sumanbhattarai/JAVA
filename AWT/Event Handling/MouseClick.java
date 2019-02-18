@@ -1,12 +1,10 @@
 
-
 import java.awt.*;
 import java.awt.event.*;
 import java.applet.*;
 
 /*
-	<applet code ="MouseClick" width = "1000" height = "1000" >
-</applet>
+	<applet code ="MouseClick" width = "1000" height = "1000" > </applet>
 */
 
 public class MouseClick extends Applet implements ActionListener
@@ -25,7 +23,6 @@ public class MouseClick extends Applet implements ActionListener
 		add(b);
 		b.addActionListener(this);
 		setLayout(null);
-
 	}
 
 	public void actionPerformed(ActionEvent ae)

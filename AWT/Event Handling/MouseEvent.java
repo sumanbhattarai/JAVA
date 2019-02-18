@@ -4,6 +4,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.applet.*;
 
+
 /*
 
 	< applet code = " MouseEvent " height = "1000" width = "1000 " > </applet>
@@ -38,27 +39,27 @@ public class MouseEvent extends Applet implements ActionListener , MouseListener
 		t.setText("Welcome");
 	}
 
-	public void mousePressed(MouseEvent me)
+	public void mousePressed(java.awt.event.MouseEvent me)
 	{
 		s = "Mouse Preesed";
 		repaint();
 	}
-	public void mouseReleased(MouseEvent me)
+	public void mouseReleased(java.awt.event.MouseEvent me)
 	{
 		s = "Mouse Released";
 		repaint();
 	}
-	public void mouseEntered(MouseEvent me)
+	public void mouseEntered(java.awt.event.MouseEvent me)
 	{
 		s = "Mouse Entered";
 		repaint();
 	}
-	public void mouseExited(MouseEvent me)
+	public void mouseExited(java.awt.event.MouseEvent me)
 	{
 		s = "Exited Frame";
 		repaint();
 	}
-	public void mouseClicked(MouseEvent me)
+	public void mouseClicked(java.awt.event.MouseEvent me)
 	{
 		s = "Mouse Clicked";
 		repaint();
