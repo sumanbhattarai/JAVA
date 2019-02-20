@@ -7,5 +7,7 @@ class TwoDimensionalArray
     System.out.println(arr.getClass().getName()) ;
     System.out.println(suman.getClass().getName()) ;
 
+    // Array and its dimension's must be initialized .
+
   }
 }
