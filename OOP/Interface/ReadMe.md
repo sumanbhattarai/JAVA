@@ -1,4 +1,7 @@
-- Using the keyword " interface" , you can fully abstract a class interface from its implementation .
+
+# Interface
+
+- Using the keyword ``` interface ``` , you can fully abstract a class interface from its implementation .
 
 - That is , using interface , you can specify what a class must do , but not how it does it .
 
