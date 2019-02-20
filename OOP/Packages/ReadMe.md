@@ -1,5 +1,7 @@
 # Package
 
+- A java package is a group of similar types of classes, interfaces and sub-packages. 
+  
 - Are containers for class 
 
 - Package allows you to create a class named ABC , which you can store in your own package without concern that it will collide with some other class named ABC stored elsewhere.
