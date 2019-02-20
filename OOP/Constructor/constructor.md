@@ -1,4 +1,5 @@
-Constructor
+
+# Constructor
 
 - A constructor initializes an object immediately upon creation.
 - Constructor has same name as the class it resides and it syntactically similar to  method.
