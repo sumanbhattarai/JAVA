@@ -16,6 +16,14 @@ A Java access modifier specifies which classes can access a given class and its 
 | ```Method``` | Yes | Yes | Yes | Yes |
 | ```Field``` | Yes | Yes | Yes | Yes |
 
+| 	| ```private``` | ```default``` | ```protected``` | ```public``` |
+|---|---------|---------|-----------|--------|
+| ```Within Class``` | Yes | Yes | Yes | Yes |
+| ```Within Package``` | No | Yes | Yes | Yes |
+| ```Outside Package by subclass only``` |	No | No | Yes | Yes |
+| ```Oustide Package``` | No | No | No | Yes |
+
+
 
 # Private Access Modifier
 
