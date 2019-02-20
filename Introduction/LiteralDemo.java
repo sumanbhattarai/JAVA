@@ -3,7 +3,7 @@ class LiteralDemo
   public static void main(String[] args)
   {
     int deciamlLiteral = 10 ;
-    int octelLiteral = 010 ; //put 0 at front fot octal literal
+    int octalLiteral = 010 ; //put 0 at front for octal literal
     int hexliteral = 0x10; //put 0x for hexadeciaml
     int binaryLiteral = 0b0110 ; //put 0b for binary , b is not case sensitive
     boolean boolLiteral = true ; // boolean literal must be true or false .. all in smallcase.
@@ -40,7 +40,7 @@ class LiteralDemo
 
 
 
-    System.out.println("Decimal : " + deciamlLiteral + "Octel : "+ octelLiteral + "  Hexa : "+hexliteral + "  Binary : "+binaryLiteral + "  Boolean : "+boolLiteral + "  Character  : "+charLiteral + "  Float : " + floatLiteral + "  Double : "+doubleliteral);
+    System.out.println("Decimal : " + deciamlLiteral + "Octal : "+ octalLiteral + "  Hexa : "+hexliteral + "  Binary : "+binaryLiteral + "  Boolean : "+boolLiteral + "  Character  : "+charLiteral + "  Float : " + floatLiteral + "  Double : "+doubleliteral);
   }
 
 }
