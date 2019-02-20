@@ -1,3 +1,4 @@
-- An Interface can be declared a memeber of a class or another interface. Such an interface can be called member or nested interface. It can be declared as public , private or protected.
 
-- Interface can be extended.
+# Nested Interface
+
+- An interface i.e. declared within another interface or class is known as nested interface. The nested interfaces are used to group related interfaces so that they can be easy to maintain. The nested interface must be referred by the outer interface or class. It can't be accessed directly.
