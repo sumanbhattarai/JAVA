@@ -26,3 +26,5 @@ class StaticMethodOverriding
         obj.disp();
     }
 }
+
+// Output is : In Base
