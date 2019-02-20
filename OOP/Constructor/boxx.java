@@ -1,9 +1,9 @@
-class boxx
+class Boxx
 {
   double height , width , length ;
 
 //default constructor
-  boxx()
+  Boxx()
   {
     height = 3.0 ;
     width = 9.0 ;
@@ -12,22 +12,27 @@ class boxx
 
 
 //parameterized constructors
-  boxx(double height , double width , double length )
+  Boxx(double height , double width , double length )
   {
     this.height = height ;
     this.width = width ;
     this.length = length ;
   }
 
-  //void initiateVariable()
-  //{
-  //  height = 2.0 ;
-  //    width = 3.0 ;
-  //  length = 4.0 ;
-  //}
 
   void volume()
   {
     System.out.println(height*width*length) ;
+  }
+
+  public static void main(String[] args)
+  {
+    Boxx box1 = new Boxx(10.0 , 2.0 , 10.0) ; // It will call parameterized constructor .
+    Boxx box2 = new Boxx() ; // It will calll default constructor
+    
+    box1.volume() ;
+    box2.volume();
+
+
   }
 }
