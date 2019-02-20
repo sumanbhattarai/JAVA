@@ -17,7 +17,7 @@ class Base {
 
 class Derived extends Base {
 
-    public void msg(){   
+    private void msg(){   
           System.out.println("In Derived"); 
     }
 }
