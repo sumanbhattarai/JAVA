@@ -1,4 +1,11 @@
-How JAVA implements run - time polymorphism ?
+
+
+# Dynamic Method Dispatch
+
+- Runtime polymorphism or Dynamic Method Dispatch is a process in which a call to an overridden method is resolved at runtime rather than compile-time.
+
+
+# How JAVA implements run - time polymorphism ?
 
 
 - Overridden method allow java to support run-time polymorphism .
