@@ -24,8 +24,6 @@
 # Using Super()
 
 - Whenever a sub class needs to refer to its immediate superclass , it can do so by use of the keyword super.
-  
-
 
 - ``` super()``` has two general forms :
   
