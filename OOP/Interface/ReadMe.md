@@ -27,7 +27,7 @@
 
 - But beginning with JDK 8 , it is possible to add  default implementation to an interface method , Thus it is now possible for interface to specify some behavior .
 
-#Implementing interface
+# Implementing interface
 
     class classname [extends superclass][implements interface1 ,interface2 ......]
     {
