@@ -17,12 +17,12 @@ class Human extends Animal
 }
 
 
-class AnimalDemo
+class LivingBeings
 {
   public static void main(String[] args)
   {
     Human obj = new Human() ;
-    obj.eat();
+    obj.eat(); 
 
   }
 }
