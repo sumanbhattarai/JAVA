@@ -2,13 +2,13 @@
 
 class Example
 {
-    private int sum(int x , int y)
+     int sum(int x , int y)
     {
         int result = x + y ;
         return result ; 
     }
 
-    private int sum (int x , int y , int z)
+     int sum (int x , int y , int z)
     {
         int result = x + y + z ;
         return result ;
