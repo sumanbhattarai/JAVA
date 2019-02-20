@@ -1,14 +1,14 @@
 
-abstract class website
+abstract class Website
 {
-    abstract void ui();
-    abstract void frontend();
-    abstract void backend();
+    public abstract void ui();
+    public abstract void frontend();
+    public abstract void backend();
 }
 
-abstract class Samir extends website
+abstract class Samir extends Website
 {
-    void ui()
+    public void ui()
     {
         System.out.println("UI Part Done");
     }
@@ -16,7 +16,7 @@ abstract class Samir extends website
 
 abstract class Suman extends Samir
 {
-    void frontend()
+    public void frontend()
     {
         System.out.println("FrondEnd Part Done");
     }
@@ -24,7 +24,7 @@ abstract class Suman extends Samir
 
  class Arjun extends Suman
 {
-    void backend()
+    public void backend()
     {
         System.err.println("Backend Part Done.");
 
@@ -34,7 +34,7 @@ abstract class Suman extends Samir
 class AbstractDemo
 {
     public static void main(String[] args) {
-        Arjun obj = new Arjun() ;
+        Website obj = new Arjun() ;
         obj.ui();
         obj.frontend();
         obj.backend();
