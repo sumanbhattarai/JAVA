@@ -5,7 +5,7 @@
 
 class Base {
 
-    public void msg()
+    private void msg()
     {
           System.out.println("In base");         
     }
