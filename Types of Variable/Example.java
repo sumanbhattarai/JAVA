@@ -4,7 +4,7 @@ class Example
         if(true)
         {
             int i ;
-            System.out.println(i);
+            System.out.println(i); // It will give error since i hasnot been initialized.
         }
         else
         {
