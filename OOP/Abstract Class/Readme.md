@@ -35,5 +35,4 @@
 
 - Cannot declare abstract constructors or abstract static method .
 
-- Any sub class of an abstract class must either implement all of the abstract methods .
-    OR be declared abstract itself .
+- Any sub class of an abstract class must either implement all of the abstract methods or be declared abstract itself .
