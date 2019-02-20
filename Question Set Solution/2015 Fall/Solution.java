@@ -57,12 +57,7 @@ class Magazine extends Book {
     }
 }
 
-class Seven{
-    public static void main(String[] args){
-        Magazine magazineOne = new Magazine("TIME", "Time Editorial", 61, "Time Publishers");
-        magazineOne.getBookType();
-    }
-}
+
 
 
 class Solution
