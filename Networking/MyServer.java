@@ -24,6 +24,7 @@ public class MyServer
             
             String str = (String)dis.readUTF() ;
             System.out.println("Message is : " + str ) ;
+            dis.close();
             ss.close();
         }
         catch(Exception e)
