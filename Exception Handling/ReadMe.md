@@ -111,13 +111,17 @@ The flow of execution stops immiediately after the throw statement ; any subsiqu
 > Checked Exception
 
 - The classes which directly inherit Throwable class except RuntimeException and Error are known as checked exceptions.
+
+- Checked exceptions are checked at compile-time.
   
--  E.g.  IOException, SQLException etc. Checked exceptions are checked at compile-time.
+-  E.g.  IOException, SQLException etc. 
 
 > Unchecked Exception
 
 - The classes which inherit RuntimeException are known as unchecked exceptions.
+
+- Unchecked exceptions are not checked at compile-time, but they are checked at runtime. 
   
-- E.g.  ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException etc. Unchecked exceptions are not checked at compile-time, but they are checked at runtime. 
+- E.g.  ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException etc. 
 
 
