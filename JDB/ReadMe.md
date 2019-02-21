@@ -13,7 +13,7 @@
 - Perform basic CRUD ( Create Read Update Delete ) operation very easily.
 
 
-# Difference between ODMBS and JDBC 
+# Difference between ODBC and JDBC 
 
 | ODBC | JDBC |
 |------|------|
