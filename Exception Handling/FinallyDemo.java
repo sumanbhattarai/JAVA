@@ -7,7 +7,7 @@ class FinallyDemo
         try
         {
             System.out.println("Inside Try");
-           int a = 2 / b ;
+            int a = 2 / b ;
             return ;
         }
         catch(ArithmeticException e)

@@ -106,6 +106,18 @@ The flow of execution stops immiediately after the throw statement ; any subsiqu
 
                
 
+# Checked and Unchecked Exceptions in JAVA
 
+> Checked Exception
+
+- The classes which directly inherit Throwable class except RuntimeException and Error are known as checked exceptions.
+  
+-  E.g.  IOException, SQLException etc. Checked exceptions are checked at compile-time.
+
+> Unchecked Exception
+
+- The classes which inherit RuntimeException are known as unchecked exceptions.
+  
+- E.g.  ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException etc. Unchecked exceptions are not checked at compile-time, but they are checked at runtime. 
 
 
