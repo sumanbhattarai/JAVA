@@ -31,10 +31,10 @@ class Dispatch
     C c = new C();
     A r ; //reference of type A 
     r = a ;//refers to A
-    r.callMe();
+    r.callMe(); // It prints Inside A
     r = b ;
-    r.callMe();
+    r.callMe(); // It prints Inside B
     r=c ;
-    r.callMe();
+    r.callMe(); // It prints Inside C
   }
 }
