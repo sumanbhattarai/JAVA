@@ -5,7 +5,7 @@ class MergeAlternate
 {
     public static void main(String[] args) throws IOException
     {
-        PrintWriter pw = new PrintWriter("file4.txt") ;
+        PrintWriter pw = new PrintWriter("fileNew.txt") ;
         BufferedReader br1 = new BufferedReader(new FileReader("file1.txt")) ;
         BufferedReader br2 = new BufferedReader(new FileReader("file2.txt")) ;
         String Line1 = br1.readLine() ;
