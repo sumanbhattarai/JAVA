@@ -9,7 +9,7 @@ class FileReaderDemo
         int i = fr.read() ;
         while(i!= -1) 
         {
-            System.out.println((char) i);
+            System.out.println((char)i);
             i = fr.read();
         }
         fr.close();
