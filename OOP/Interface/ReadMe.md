@@ -49,3 +49,12 @@
 | An abstract class can extend another Java class and implement multiple Java interfaces.|	An interface can extend another Java interface only.|
 | An abstract class can be extended using keyword ```extends```.|	An interface class can be implemented using keyword ```implements```.|
 | A Java abstract class can have class members like private, protected, etc.|	Members of a Java interface are public by default. |
+
+# Difference between Interface and package
+
+|```Basis for Comparison```|```Package```|```Interface```|
+|--------------------------|-------------|---------------|
+|Basic|	Packages is a group of classes and/or interfaces together.|	Interfaces is a group of abstract methods and constant fields.|
+|Keyword|	Packages are created using ```Package ``` keyword.|	Interface are created using ```Interface``` keyword.|
+|Access|	A package can be imported |	An interface can be extended by another interface and implemented by the class.|
+|Access keyword |	Packages can be imported using ```import``` keyword.|	Interfaces can be implemented using ```implement``` keyword.|
