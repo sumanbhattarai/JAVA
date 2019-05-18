@@ -1,7 +1,8 @@
 class FinallyDemo
 {
 
-    static void finallyOne()
+    
+    public static void main(String[] args) 
     {
         int b = 1;
         try
@@ -20,12 +21,6 @@ class FinallyDemo
 
         System.out.println("Have a good day !");
         }
-        
-    }
-    
-    public static void main(String[] args) 
-    {
-        finallyOne();
     }
     
        
