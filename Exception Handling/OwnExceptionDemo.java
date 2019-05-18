@@ -17,7 +17,7 @@ class InvalidAge extends Exception
 
 class OwnExceptionDemo
 {
-    static void ageCheck( int age) throws InvalidAge
+    static public void ageCheck( int age) throws InvalidAge
     {
         if(age<18)
         {
