@@ -1,28 +1,24 @@
+
 class A
 {
-  int i ;
+  int i = 100 ;
 }
 
 class B extends A
 {
-  int i ; //this i hides i in A
-  B(int a , int b)
-  {
-    super.i = a ; // i in A
-    i = b ; // i in B
-  }
+  int i = 200 ;
 
-  void show()
+  void msg()
   {
-    System.out.println("i in superclass " + super.i) ;
-    System.out.println("i in subclass " + i ) ;
+    System.out.println("Base class i is : " + super.i);
+    System.out.println("Derived class i is : " + i);
   }
 }
 
 class UseSuper
 {
   public static void main(String[] args) {
-    B subObj = new B(2,3) ;
-    subObj.show();
+    B obj = new B();
+    obj.msg();
   }
 }
