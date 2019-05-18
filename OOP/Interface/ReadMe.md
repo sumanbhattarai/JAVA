@@ -37,7 +37,7 @@
   * When you implement an interface method , it must be declared as public .
 
 
-# DIfference between Interface and Abstract
+# Difference between Interface and Abstract
 
 |``` Abstract class```|	```Interface```|
 |---------------------|----------------|
