@@ -1,6 +1,6 @@
 class Animal
 {
-  void eat()
+  void eat() // It will be overridden in sub class.
   {
     System.out.println("I eat grass.") ;
   }
@@ -11,7 +11,7 @@ class Human extends Animal
 
   void eat()
   {
-    super.eat();
+    
     System.out.println("I eat meat.") ;
   }
 }
