@@ -1,7 +1,7 @@
 class Outer
 {
   int outerX = 100 ;
-  void test()
+  public void test()
   {
     Inner inner = new Inner() ;
     inner.display();
@@ -9,8 +9,8 @@ class Outer
   }
   class Inner
   {
-    int y = 10 ;
-    void display()
+    
+    public void display()
     {
       System.out.println("Display :  outerX = " + outerX) ;
     }
