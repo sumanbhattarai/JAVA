@@ -63,7 +63,11 @@ class Magazine extends Book {
 class Solution
 {
     public static void main(String[] args) {
-        Novel obj = new Novel("MunaMudan" , "LaxmiPrsd" , 1000 , "Readmoew") ;
+        Novel obj = new Novel("Muna Mudan" , "Laxmi Prasad Devkota" , 10000 , "Readmore") ;
         obj.getBookType();
+
+        Magazine obj1 = new Magazine("Time", "Henry Luce", 60, "Time Inc.");
+        obj1.getBookType();
+        
     }
 }
