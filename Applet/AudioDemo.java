@@ -1,35 +1,37 @@
 
-import java.awt.* ;
-import java.awt.event.ActionListener;
-import java.applet.* ;
+import java.awt.*;
+import java.awt.event.* ;
+import java.applet.*;
 
-/*
 
-    <applet code = "AudioDemo" height = "1000" width = "1000" > </applet
-
-*/
+/* <applet code="AudioDemo" height=900 width=900 > </applet> */
 
 public class AudioDemo extends Applet implements ActionListener
 {
-    public AudioClip clip ;
-    
+    AudioClip ac ;
+    Button b , bw ;
+
     public void init()
     {
-        Button b = new Button("Play");
+        b = new Button("Play the music");
         add(b);
+        bw = new Button ("Stop the Music");
+        add(bw);
+
         b.addActionListener(this);
-        clip = getAudioClip(getDocumentBase() , "Sound.wav") ;
-
-        
-        
-
+        bw.addActionListener(this);
+        ac = getAudioClip( getDocumentBase() , "Sound.wav") ;
     }
 
-    public void actionPerformed(ActionEvent ae)
-	{
-        clip.play();
-	}
-
-
-
+    public void actionPerformed(ActionEvent e)
+    {
+        if(e.getSource()==b)
+        {
+        ac.play();
+        }
+        else if (e.getSource()==bw)
+        {
+            ac.stop();
+        }
+    }
 }

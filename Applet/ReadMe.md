@@ -41,7 +41,7 @@ graphical user interface.
 
  > init()
 
- - The init() is the first method to be called . This is where you should initialize variable. This method is called only once during the runtime of you applet.
+ - The init() is the first method to be called . This is where you should initialize variable. This method is called only once during the runtime of your applet.
 
  > start()
  
