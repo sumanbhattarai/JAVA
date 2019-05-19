@@ -11,6 +11,7 @@ public class SwingDemo extends JFrame
         JButton b = new JButton("Click") ;
         setLayout(new FlowLayout());
         setVisible(true);
+        setSize(100,100);
         add(name) ;
         add(b);
     }
