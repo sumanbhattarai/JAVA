@@ -1,7 +1,7 @@
 import javax.swing.*;  
+import java.awt.*;
 
-
-class OptionPaneExample 
+class OptionPaneExample extends JFrame
 {  
         JFrame f;  
         OptionPaneExample()
