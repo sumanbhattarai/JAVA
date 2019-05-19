@@ -20,7 +20,7 @@
 – These Applets use the Abstract Window ToolKit(AWT) to provide the
 graphical user interface.
 – This style of Applet has been available since java was first created.
-R
+
 - Based on JApplet class : 
 
 – Are based on the Swing class JApplet, which inherits Applet.
@@ -41,7 +41,7 @@ R
 
  > init()
 
- - The init() is the first method to be called . This is where you should initialize variable. This methhod is called only once during the runtime of you applet.
+ - The init() is the first method to be called . This is where you should initialize variable. This method is called only once during the runtime of you applet.
 
  > start()
  
