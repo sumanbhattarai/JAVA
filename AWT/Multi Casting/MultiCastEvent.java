@@ -1,14 +1,12 @@
 
 import java.awt.* ;
-import java.awt.Event.* ;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.* ;
 import javax.swing.* ;
-import javax.swing.text.html.MinimalHTMLWriter;
+
 
 public class MultiCastEvent extends JPanel implements ActionListener 
 {
-    private int counter = 0 ;
+    public int counter = 0 ;
     private JButton closeAllButton ;
 
     public MultiCastEvent()
