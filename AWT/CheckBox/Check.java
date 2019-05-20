@@ -3,7 +3,7 @@ import java.awt.* ;
 import java.awt.event.* ;
 
 
-public class Check extends Frame implements ActionListener
+public class Check extends Frame implements ItemListener
 {
     TextField t ;
     Checkbox c1 ;
@@ -51,10 +51,9 @@ public class Check extends Frame implements ActionListener
         
     }
 
-    public void actionPerformed(ActionEvent ae)
+    public void itemStateChanged(ItemEvent e)
     {
         
-
     }
 
     public static void main(String[] args) 
