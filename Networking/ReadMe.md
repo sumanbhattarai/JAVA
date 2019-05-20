@@ -68,7 +68,7 @@
 |Connection-Oriented|Connection-less|
 |-------------------|---------------|
 |Classes Used: | Classes Used :|
-| ```1. Socket```| ```1. Datagram Socket```|
+| ```1. Socket```| ```1. DatagramSocket```|
 |```2. ServerSocket```|```2. DatagramPacket```|
 
 
