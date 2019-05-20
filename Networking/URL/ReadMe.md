@@ -17,3 +17,8 @@
 - ```public String getPort()```
 - ```public String getFile()```
 - ```public String getQuery() ```
+
+
+# URL Connection class
+
+The Java URLConnection class represents a communication link between the URL and the application. This class can be used to read and write data to the specified resource referred by the URL.
