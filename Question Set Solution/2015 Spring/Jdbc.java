@@ -1,42 +1,42 @@
 
 import java.sql.* ;
 
-public class UpdateDemo {
-
-	public static void main(String[] args) 
+public class ShowData 
+{
+	public static void main(String[] args)
 	{
-		try {
-			Connection conn = null ;
-			Statement s = null ;
-			ResultSet r = null ;
-
-			
+		Statement s = null ;
+		Connection conn =null ;
+		ResultSet rs = null ;
+		
+		try
+		{
+			//Conneciton
 			conn = DriverManager.getConnection("jdbc:mysql://localhost:8889/testdb","suman","admin045");
 			
-			String sql = "select * from employee where id<100 " ;
+			String sql = "select * from Student where id<100" ;
 			
 			s = conn.createStatement() ;
-			r = s.executeQuery(sql) ;
 			
-			while(r.next())
+			
+			rs = s.executeQuery(sql) ;
+			
+			while(rs.next())
 			{
-				System.out.println(r.getInt(1));
-                System.out.println(r.getString(2));
-                System.out.println(r.getString(3));
+				System.out.println(rs.getInt(1));
+				System.out.println(rs.getString(2));
+				System.out.println(rs.getString(3));
+				System.out.println(rs.getString(4));
+				System.out.println(rs.getString(5));
 			}
 			
+		//	conn.close();
 			
+		}
+		catch ( Exception e )
+		{
 			
-			
-			
-		} catch ( Exception ee )
-			
-			{
-				System.out.println("Error is : " + ee.getMessage());
-			}
-
-		
-
+		}
 	}
 
 }
