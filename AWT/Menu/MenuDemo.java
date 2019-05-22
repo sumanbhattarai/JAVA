@@ -4,8 +4,7 @@ import java.awt.event.*;
 
 class MenuDemo extends JFrame implements ActionListener
 {
-	JMenuItem addMI;
-	JMenuItem subtractMI,closeMI;
+	JMenuItem addMI , subtractMI,closeMI;
 	JTextField tf1,tf2,tf3;
 	MenuDemo()
 	{
