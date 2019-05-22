@@ -9,7 +9,7 @@ public class Q4a extends Frame
         setSize(600,600);
         setVisible(true);
         setLayout(new FlowLayout());
-        setTitle("Frame Title");
+        setTitle("My Frame ");
         addWindowListener( new WindowAdapter()
         {
             public void windowClosing( WindowEvent we)
