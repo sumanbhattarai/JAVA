@@ -3,7 +3,8 @@ import java.awt.event.*;
 import javax.swing.*;
 class MulticastDemo implements ActionListener
 {
-	JFrame frame;
+    JFrame frame;
+    JPanel p ;
     static int count=0;
     JButton newWindow;
     JButton closeAll;
@@ -14,6 +15,7 @@ class MulticastDemo implements ActionListener
     MulticastDemo()
     {
         frame=new JFrame("Main Window");
+        p = new JPanel();
         newWindow=new JButton("New Window");
         closeAll=new JButton("Close All Windows");
 
@@ -21,8 +23,9 @@ class MulticastDemo implements ActionListener
         frame.setSize(300,300);
         frame.setLayout(new FlowLayout());
         
-        frame.add(newWindow);
-        frame.add(closeAll);
+        p.add(newWindow);
+        p.add(closeAll);
+        frame.add(p);
 
         newWindow.addActionListener(this);
         
